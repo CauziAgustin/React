@@ -6,14 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-.prueba{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #214e5b;
-  color: white;
 
-}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -43,3 +36,4 @@
     transform: rotate(360deg);
   }
 }
+

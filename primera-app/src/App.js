@@ -1,14 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+import { buildQueries } from "@testing-library/react";
+import NavBar from "./components/container/NavBar";
+import ItemListContainer from "./components/container/ItemListContainer";
+import Footer from "./components/container/Footer";
+
 
 function App() {
   return (
     <>
-    <h1 className='prueba'>Hola mundo con React!</h1>
-    <h3>CelularTech</h3>
-    <strong>E-Commerce de Venta de Celulares</strong>
+  <NavBar></NavBar>
+  <ItemListContainer></ItemListContainer>
+    <Footer></Footer>
     </>
-    
   );
 }
 
