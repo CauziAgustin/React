@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React/static/css/main.2d1281cc.css",
+    "main.js": "/React/static/js/main.e45fc474.js",
+    "static/js/787.74be6603.chunk.js": "/React/static/js/787.74be6603.chunk.js",
+    "static/media/celular.jpg": "/React/static/media/celular.a4b7312c74e4ce890841.jpg",
+    "static/media/iphone11.jpg": "/React/static/media/iphone11.74a934702487a9b192ac.jpg",
+    "static/media/iphone12.jpg": "/React/static/media/iphone12.084b6cdca8adda61017c.jpg",
+    "static/media/iphone13.jpg": "/React/static/media/iphone13.276cbbd3bf642d756377.jpg",
+    "static/media/iphone13pro.jpg": "/React/static/media/iphone13pro.d143d55ba2188101dee3.jpg",
+    "static/media/iphoneSE.jpg": "/React/static/media/iphoneSE.b92d42efdc6e6aca6c80.jpg",
+    "index.html": "/React/index.html",
+    "main.2d1281cc.css.map": "/React/static/css/main.2d1281cc.css.map",
+    "main.e45fc474.js.map": "/React/static/js/main.e45fc474.js.map",
+    "787.74be6603.chunk.js.map": "/React/static/js/787.74be6603.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d1281cc.css",
+    "static/js/main.e45fc474.js"
+  ]
+}
