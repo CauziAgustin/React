@@ -6,11 +6,13 @@ import ItemListContainer from "./components/container/ItemListContainer";
 import Footer from "./components/container/Footer";
 
 
+
+
 function App() {
   return (
     <>
-  <NavBar></NavBar>
-  <ItemListContainer></ItemListContainer>
+    <NavBar></NavBar>
+    <ItemListContainer></ItemListContainer>
     <Footer></Footer>
     </>
   );
