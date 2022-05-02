@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React/static/css/main.cec80e2c.css",
-    "main.js": "/React/static/js/main.777cbd2c.js",
+    "main.css": "/React/static/css/main.05865205.css",
+    "main.js": "/React/static/js/main.4edd631e.js",
     "static/js/787.74be6603.chunk.js": "/React/static/js/787.74be6603.chunk.js",
     "static/media/celular.jpg": "/React/static/media/celular.a4b7312c74e4ce890841.jpg",
     "static/media/s21ultra.png": "/React/static/media/s21ultra.af0bb5b44f7221115997.png",
@@ -20,12 +20,12 @@
     "static/media/iphone13pro.jpg": "/React/static/media/iphone13pro.d143d55ba2188101dee3.jpg",
     "static/media/iphoneSE.jpg": "/React/static/media/iphoneSE.b92d42efdc6e6aca6c80.jpg",
     "index.html": "/React/index.html",
-    "main.cec80e2c.css.map": "/React/static/css/main.cec80e2c.css.map",
-    "main.777cbd2c.js.map": "/React/static/js/main.777cbd2c.js.map",
+    "main.05865205.css.map": "/React/static/css/main.05865205.css.map",
+    "main.4edd631e.js.map": "/React/static/js/main.4edd631e.js.map",
     "787.74be6603.chunk.js.map": "/React/static/js/787.74be6603.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cec80e2c.css",
-    "static/js/main.777cbd2c.js"
+    "static/css/main.05865205.css",
+    "static/js/main.4edd631e.js"
   ]
 }
