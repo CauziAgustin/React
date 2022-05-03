@@ -6,7 +6,7 @@ const Item = ({phoneData , img}) => {
     <div>
       
         <div style={{ justifyContent: "center", alignItems:'center'}}>
-        <div class="card w-96 bg-base-100 shadow-xl m-4 flex-wrap ">
+        <div class="card w-95 bg-base-100 shadow-xl m-4 flex-wrap  ">
           <figure>
             <img src={phoneData.picture} alt="celular"/>
           </figure>

@@ -70,24 +70,24 @@ useEffect(() => {
   return (
    <>
    <div >
-    <div class="xl:m-20 sm:m-2">
-      <h1 class="text-2xl flex justify-center p-10">Iphones</h1>
+    <div class="xl:m-20 sm:m-0">
+      <h1 class="text-2xl flex justify-center p-10 sm:p-0">Iphones</h1>
       <hr></hr>
-    <div class="grid gap-1 xl:grid-cols-3  grid-rows-2 md:grid-cols-2 sm:grid-cols-1">
+    <div class="grid gap-1 xl:grid-cols-3  grid-rows-2 md:grid-cols-2 sm:flex">
     {phonesIphone.map(phones => <Item key={phones.id} phoneData={phones}/>)}
    
      </div></div>
-     <div class="xl:m-20 sm:m-2 ">
-      <h1 class="text-2xl flex justify-center p-10">Samsung</h1>
+     <div class="xl:m-20 sm:m-0 ">
+      <h1 class="text-2xl flex justify-center p-10 sm:p-0">Samsung</h1>
       <hr></hr>
-    <div class="grid gap-1 xl:grid-cols-3  grid-rows-2 md:grid-cols-2 sm:grid-cols-1">
+    <div class="grid gap-1 xl:grid-cols-3  grid-rows-2 md:grid-cols-2 sm:flex">
     {phonesSamsung.map(phone => <ItemSamsung key={phone.id} phoneDataSamsung={phone}/>)}
    
      </div></div>  
-     <div class="xl:m-20 sm:m-2 ">
-      <h1 class="text-2xl flex justify-center p-10">Motorola</h1>
+     <div class="xl:m-20 sm:m-0 ">
+      <h1 class="text-2xl flex justify-center p-10 sm:p-0">Motorola</h1>
       <hr></hr>
-    <div class="grid gap-1 xl:grid-cols-3  grid-rows-2 md:grid-cols-2 sm:grid-cols-1">
+    <div class="grid gap-1 xl:grid-cols-3  grid-rows-2 md:grid-cols-2 sm:flex">
     {phonesMotorola.map(phon => <ItemMotorola key={phon.id} phoneDataMotorola={phon}/>)}
    
      </div></div>  

@@ -1,5 +1,5 @@
 import s21ultra from '../data/assets/img/card/samsung/s21ultra.png'
-import s22plus from '../data/assets/img/card/samsung/s22plus.png';
+import s22plus from '../data/assets/img/card/samsung/s22plus.jpg';
 import s22ultra from '../data/assets/img/card/samsung/s22ultra.png';
 import zflip3 from '../data/assets/img/card/samsung/zflip3.png';
 import zfold3 from '../data/assets/img/card/samsung/zfold3.png';
