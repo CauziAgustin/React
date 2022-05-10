@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, Route, Routes } from 'react-router-dom'
 
 const Item = ({phoneData , img}) => {
   return (
@@ -14,7 +15,8 @@ const Item = ({phoneData , img}) => {
             <h2 class="card-title">{phoneData.breed + phoneData.name}</h2>
             <p>Desde {phoneData.price}</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
+               <button><Link to={'/iphone/${phoneData.id}'}>Detalle </Link></button>
+            <button class="btn btn-primary">Buy Now</button> 
             </div>
           </div>
         </div>
