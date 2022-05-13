@@ -12,7 +12,7 @@ Lo que espero realizar en este E-commerce:
 * Noticias y novedades sobre las tecnologías que se avecinan. (Esto a revisar si lo voy a poder concretar )
 
 Nuevamente mediante este Readme voy a detallar mi progreso con el tiempo.
-## Desafío 02 - "Crear un componente NavBar"
+## Componente NavBar"
 
 En esta oportunidad he creado un componente NavBar.jsx dentro de una carpeta
 a la que he llamado "components" y dentro de otra que he llamado "container"
@@ -23,6 +23,9 @@ A continuación les mostraré la distribución que he pensado en primera instanc
 |--|--components/
 |--|--|--container/
 |--|--|--|--NavBar.jsx
+
+## Footer
+Brinda informacion, legales sobre la empresa.
 ## Creando un CartWidget
 
 En mi caso, he creado un componente llamado CartWidget.jsx
@@ -37,12 +40,30 @@ de cada uno de los SmartPhones que dispone el Ecommerce.
 En este momento he creado un componente ItemList.jsx y Item.jsx dentro de una carpeta
 a la que he llamado "components" y dentro de otra que he llamado "container"
 
-La utilidad de Item.jsx es la de brindar una estructura de tipo Card para cada smartphone y con el ItemList su utilidad es mediante promesas y tiempos de espera para obtener la data que trae el objeto  Phones 
+La utilidad de Item.jsx es la de brindar una estructura de tipo Card para cada smartphone y con el ItemList su utilidad es mediante promesas y tiempos de espera para obtener la data que trae el objeto  Phones y mediante el SetTimeout() poner un tiempo asignado de retraso.
 
+## Creacion de ItemDetailContainer
+Utilice la misma premisa que utilice en ItemListContainer
+Cree una funcion Async que devuelve un Item en 2 segundos.
 
+## Componente ItemDetail
+Cree un componente llamado "ItemDetail.jsx" y su utilizacion es la de crear una especie de card con descripcion y una imagen.
 
+## Routing y Link
+Cree una navegacion en el App.js
 
+    <BrowserRouter>
+      <NavBar></NavBar>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/producto/:id' element={<ItemDetailContainer/>} />
+        <Route path="/marcas/:breed" element={<ItemListContainer/>}/>
+      </Routes>
+      <Footer></Footer>
+    
+    </BrowserRouter>
 
+    utilice parametros, implemente distintas categorias y opciones que te dirigen a la opcion que deseas.
 
 
 Bueno, es todo por hoy 😉
