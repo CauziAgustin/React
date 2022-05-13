@@ -6,7 +6,6 @@ import { phones as phoneData } from '../data/cellPhonesIphone'
 const ItemList = ({breed}) => {
 
   const [phones, SetPhones] = useState([])
-  console.log(breed);
   // PHONES
   useEffect(() => {
     const getPhones = new Promise((resolve) => {
